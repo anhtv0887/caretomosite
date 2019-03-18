@@ -1,0 +1,21 @@
+.btn {
+    margin:10px auto;
+    width:40%;
+    text-align: center;
+    background: #C60000;
+}
+
+.btn a {
+    font-size: 25px;
+    display: block;
+    color:#ffffff;
+    padding: 20px;
+}
+
+.btn a:hover {
+    font-size: 25px;
+    display: block;
+    color:#ffffff;
+    padding: 20px;
+    background: #00a2e8;
+}

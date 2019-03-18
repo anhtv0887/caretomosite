@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	font-size:13px;
+}
+
+#layout {
+	margin:0 auto;
+	width:760px;
+}
+a {
+	text-decoration:none;
+}
+/* Phan navigator */
+ul {
+	list-style:none;
+}
+#gNav_1 ul {
+	background-color:#C60000;
+	text-align:center;
+	width:760px;
+}
+#gNav_1 ul li {
+	display:inline-block;
+	height:20px;
+	width:19.6%;	
+	color:#FFF;
+	font-weight:800;
+	padding-top:5px;
+}
+#gNav_1 ul li:hover {
+	background-color:#3C9DFF;
+}
+
+/* Phan content */
+#content h3,p {
+	margin:30px;
+}
+span {
+	color:#F00;
+}
+
+/* Phan form */
+table {
+	margin:0 auto;
+	border-collapse:collapse;
+	width:550px;
+}
+table, th,td {
+	border:1px solid #F47A00;
+	padding:6px;
+}
+th {
+	text-align:left;
+	background-color:#FCDDBE;
+	color:#B95C00;
+}
+.tleft {
+	background-color:#EFEFEF;
+	width:25%;
+}
+#cfooter {
+	margin:30px;
+	text-align:center;
+	line-height:25px;
+}
+
+/* Phan Footer */
+#footer ul li {
+	display:inline-block;
+}
+#footer h4 ul {
+	text-align:center;
+	background-color:#F00;
+}
+h4 a {
+	color:#FFF;
+}
+h4 ul li {
+	width:90px;
+	height:15px;
+	padding-top:2px;
+}
+#f_banner {
+	text-align:center;
+	padding:8px;
+}
+h5, #f_nag2 a {
+	color:#999;
+}
+#f_nag2 li {
+	width:115px;
+	font-size:10px;
+}
